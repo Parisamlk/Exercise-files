@@ -943,7 +943,7 @@ a {
   padding: 45px 10px;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0px -5px 20px 0px rgba(56, 74, 235, 0.1);
+  box-shadow: 0px -5px 20px 0px #978c7a;
 }
 @media (min-width: 1000px) {
   .subscribe {
@@ -3119,7 +3119,7 @@ a {
   border-color: #c5322d !important;
 }
 .login_form_inner {
-  box-shadow: 0px 10px 40px 0px rgba(56, 74, 235, 0.1);
+  box-shadow: 0px 10px 40px 0px #e9decf;
   height: 100%;
   text-align: center;
   padding: 30px 0;
