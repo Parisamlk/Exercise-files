@@ -970,6 +970,7 @@ a {
   top: 50px;
   left: 10px;
   color: #978c7a;
+  border: 1px;
 }
 .subscribe-form .form-control {
   border-radius: 30px;
@@ -3011,7 +3012,7 @@ a {
   height: 14px;
   z-index: 9;
   cursor: pointer;
-  -webkit-transition: all 0.25s linear;
+  transition: all 0.25s linear;
   font-weight: 500;
   color: #222;
   font-size: 15px;
@@ -3935,7 +3936,6 @@ a {
   position: absolute;
   right: 0px;
   top: 14px;
-  @icnlude transition;
 }
 .review_item .media .media-body .reply_btn:hover {
   background: #978c7a;
