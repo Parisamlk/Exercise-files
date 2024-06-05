@@ -1014,6 +1014,8 @@ a {
   background: #978c7a;
   color: #fff;
   transition: all 0.4s ease;
+  margin-top: 10px;
+  margin-left: 15px;
 }
 @media (max-width: 767px) {
   .button {
@@ -1101,6 +1103,7 @@ a {
   border-color: #978c7a;
   background: transparent;
   color: #222;
+  border: 1px solid #978c7a;
 }
 .button-register {
   font-size: 14px;
@@ -3740,7 +3743,8 @@ a {
   box-shadow: none;
   cursor: pointer;
   position: absolute;
-  right: 0px;
+  right: -50px;
+  margin-top: 10px;
   font-size: 14px;
   color: #cccccc;
   -webkit-transition: all 0.3s ease 0s;
@@ -3975,12 +3979,21 @@ a {
   margin-top: 15px;
 }
 .review_box .primary-btn {
-  line-height: 38px !important;
-  padding: 0px 38px;
-  text-transform: uppercase;
+  line-height: 25px !important;
   margin-right: 10px;
-  border-radius: 5px;
   border: none;
+  background: #978c7a;
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: 30px;
+  padding: 12px 40px;
+  border-radius: 30px;
+}
+.review_box .primary-btn:hover {
+  border-color: #978c7a;
+  background: transparent;
+  color: #222;
+  border: 1px solid #978c7a;
 }
 .form-review .form-control {
   height: 46px;
