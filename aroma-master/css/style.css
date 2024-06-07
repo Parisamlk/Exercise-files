@@ -2094,6 +2094,7 @@ a {
 }
 .form-contact button {
   border: 0;
+  border-radius: 30px;
 }
 .filter-bar {
   padding: 0px 20px 10px 20px;
